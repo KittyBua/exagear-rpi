@@ -31,8 +31,8 @@ sudo dpkg -i exagear-guest-debian-9_3428_all.deb
 # 64-bit
 wget https://archive.org/download/exagear-desktop_202111/exagear_3428-1_arm64.deb --no-check-certificate
 wget https://archive.org/download/exagear-desktop_202111/exagear-dsound-server_010_arm64.deb --no-check-certificate
-wget https://archive.org/download/exagear-desktop_202111/exagear-guest-debian-9_3428_all.deb
-sudo dpkg -i exagear_3428-1_arm64.deb --no-check-certificate
+wget https://archive.org/download/exagear-desktop_202111/exagear-guest-debian-9_3428_all.deb --no-check-certificate
+sudo dpkg -i exagear_3428-1_arm64.deb
 sudo dpkg -i exagear-dsound-server_010_arm64.deb
 sudo dpkg -i exagear-guest-debian-9_3428_all.deb
 ```
